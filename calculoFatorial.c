@@ -2,7 +2,8 @@
 
 main()
 {
-	int valorN, i, resultado = 1;
+	int valorN, i; 
+	float resultado = 1;
 	
 	printf("Insira um valor para calcular o fatorial deste numero: ");
 	scanf("%d", &valorN);
@@ -12,5 +13,5 @@ main()
 		resultado = resultado * (valorN - i);
 	}
 	
-	printf("\n\n resultado eh = %d", resultado);
+	printf("\n\n resultado eh = %.0f", resultado);
 }
