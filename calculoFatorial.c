@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*main()
+main()
 {
 	int valorN, i; 
 	float resultado = 1;
@@ -14,6 +14,6 @@
 	}
 	
 	printf("\n\n resultado eh = %.0f", resultado);
-}*/
+}
 
 
